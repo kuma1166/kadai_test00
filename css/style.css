@@ -1,0 +1,431 @@
+/* 全体整える用のCSS */
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 2.0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+a:hover {
+  opacity: 0.6;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button value{
+  display: flex;
+  justify-content: center;
+}
+
+.button1:hover {
+  opacity: 0.6;
+}
+
+.button2:hover {
+  opacity: 0.6;
+}
+
+/* ---------------------------------------------------- */
+/* ヘッダー部分のCSS */
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-list ul{
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-list li {
+  font-size: 21px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  list-style-type: none;
+}
+/* ---------------------------------------------------- */
+/* ファーストビュー画像のCSS */
+.mainvisual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+ }
+
+.mainvisual img {
+  width: 1200px;
+}
+
+.main_title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 30px;
+}
+
+.main_title h1 {
+  font-size: 48px;
+  color: #fff;
+}
+
+.main_title p {
+  font-size: 36px;
+}
+/* ---------------------------------------------------- */
+/* AboutのCSS */
+span {
+  color: #ffd61a;
+}
+
+.about_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#about {
+  margin-top: 60px;
+}
+
+.about_text_01 {
+  margin-top: 60px;
+}
+.about_text_02 {
+  margin-bottom: 40px;
+}
+
+.about_text_03 {
+  margin-bottom: 40px;
+}
+
+.about_text_04 {
+  margin-bottom: 80px;
+}
+
+/* 写真4枚横並び */
+.about_pictures {
+  display: flex;
+  width: 1200px;
+  height: 255px;
+  margin: 0 auto;
+}
+
+.about_pictures img {
+  width: 100%;
+  height: 255px;
+  object-fit: cover;
+}
+/* ---------------------------------------------------- */
+/* COURSEのCSS */
+.course {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.course h2 {
+  margin-bottom: 30px;
+}
+
+/* ここからCourseの画像と説明 */
+/* 1行目の画像と説明 */
+.course_01 {
+  display: flex;
+  justify-content: flex-start;
+  height: 404px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.course_01_picture img{
+  width: 600px;
+  height: auto;
+}
+
+.course_01_text {
+  background-color: #eee;
+  width: 600px;
+}
+
+.course_01_text h2 {
+  text-align: left;
+  margin-top: 90px;
+  margin-left: 50px;
+  top: 120px;
+  /* top: 50%;
+  left: 75%; */
+}
+
+.course_01_text p {
+  text-align: left;
+  margin-left: 50px;
+}
+
+/* 2行目の画像と説明 */
+.course_02 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.course_02_picture img {
+  width: 600px;
+  height: auto;
+}
+
+.course_02_textbox {
+  width: 100%;
+  background-color: #eee;
+  width: 600px;
+}
+
+.course_02_text h2 {
+  text-align: left;
+  margin-top: 90px;
+  margin-left: 130px;
+}
+
+.course_02_text p {
+  text-align: left;
+  margin-left: 130px;
+}
+
+/* 3行目の画像と説明 */
+.course_03 {
+  display: flex;
+  justify-content: flex-start;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.course_03_picture img {
+  width: 600px;
+  height: auto;
+  /* object-fit: cover; */
+}
+
+.course_03_text {
+  text-align: center;
+  background-color: #eee;
+  width: 100%;
+}
+
+.course_03_text h2 {
+  text-align: left;
+  margin-top: 90px;
+  margin-left: 50px;
+}
+
+.course_03_text p {
+  text-align: left;
+  margin-left: 50px;
+}
+/* ---------------------------------------------------- */
+/* NEWSのCSS */
+.news_header {
+  text-align: center;
+}
+
+.news_header h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.news_header p {
+  margin-bottom: 60px;
+}
+
+.news_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.news_box {
+  width: 300px;
+  margin-right: 30px;
+}
+
+.news_box p{
+  font-size: 14px;
+}
+/* ボタンのCSS */
+
+
+.button1 {
+  color: #fff;
+  background-color: #ffd61a;
+  border-color: #cacaca;
+  height: 60px;
+  width: 300px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  align-items: center;
+  font-size: 18px;
+}
+
+/* ---------------------------------------------------- */
+/* AccessのCSS */
+.access_wrapper {
+  text-align: center;
+}
+
+.access_header h2{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.access_header p {
+  margin-bottom: 60px;
+}
+
+.access_table {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  background-color: #fafafa;
+}
+
+.access_table th{
+  height: 50px;
+}
+
+.access_table td {
+  margin: 30px;
+}
+
+/* ---------------------------------------------------- */
+/* CONTSACTのCSS */
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  margin: 0px;
+}
+
+.contact h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.contact_text_02 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.contact_text_03 {
+  margin-bottom: 70px;
+}
+
+/* 問い合わせフォームのCSS */
+.register {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.register th{
+  padding-left: 16px;
+  border: 1px solid #bfbfbf;
+  border-left: 0px solid #bfbfbf;
+  width: 240px;
+  height: 36px;
+}
+
+.register td {
+  border: 1px solid #bfbfbf;
+  border-right: 0px solid #bfbfbf;
+  width: 400px;
+  height: 36px;
+}
+
+.form {
+  height: auto
+}
+
+input[type="text"] {
+  height: 36px;
+  width: 328px;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+input[type="text2"] {
+  height: 150px;
+  width: 328px;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+select {
+  height: 42px;
+  width: 335px;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+/* チェックボックスのCSS */
+.ch{
+  height: 24px;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+/* 問い合わせフォーム送信ボタンのCSS */
+.button2 {
+  color: #fff;
+  background-color: #ffd61a;
+  border-color: #cacaca;
+  height: 60px;
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 140px;
+  align-items: center;
+  font-size: 18px;
+}
+/* ---------------------------------------------------- */
+/* FOOTER */
+.footer{
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: #707070;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
